@@ -28,6 +28,7 @@ nav {
 	background-color: white;
 	colour: black;
 	padding: 0px;
+	border-bottom: 5px solid gray;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -54,13 +55,21 @@ a:hover {
 
 #main {
 	position: absolute;
-	top: 10px;
 	left: 0px;
 	z-index: -1;
+}
+
+#home, #contact {
 	color: white;
 	background-color: black;
 }
 
+#about, #legal {
+	color: black;
+	background-color: white;
+}
+
 .section {
-	margin: 15% 50px;
+	padding: 15% 50px;
+	margin: 0px;
 }
